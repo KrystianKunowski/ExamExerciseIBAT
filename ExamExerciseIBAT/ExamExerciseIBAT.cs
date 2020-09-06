@@ -35,9 +35,9 @@ namespace ExamExerciseIBAT
                 }
                 Console.WriteLine("");
 
-                //-------------------------------------------------------- User input & displaying of magic number
+            //-------------------------------------------------------- User input & displaying of "magic digit"
 
-                Console.WriteLine("Your integers are : ");
+            Console.WriteLine("Your integers are : ");
                 for (i = 0; i < 10; i++)
                 {
                     Console.Write("{0}  ", arrayOfUserInput[i]);
@@ -71,9 +71,9 @@ namespace ExamExerciseIBAT
                     }
                 }
 
-                //-------------------------------------------------------- User input & displaying array of number entered
-            }
+            //-------------------------------------------------------- Filtering and displaying array by number entered
         }
+    }
 
     }
 
